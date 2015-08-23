@@ -8,5 +8,4 @@ before_script:
   - composer install
 
 script:
-  - cd ./behat
   - ./bin/behat --tags=~wip
