@@ -1,6 +1,9 @@
 before_script:
-  # Exit one errors.
+  # Exit on errors.
   - set -e
+  
+  # Update composer
+  - composer self-update
 
   # Install Behat
   - cd ./behat
