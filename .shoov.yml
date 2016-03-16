@@ -5,7 +5,7 @@ before_script:
   # Install Behat
   - cd ./behat
   - cp behat.local.yml.example behat.local.yml
-  - composer install
+  - composer install --prefer-dist
 
 script:
   - ./bin/behat --tags=~wip
